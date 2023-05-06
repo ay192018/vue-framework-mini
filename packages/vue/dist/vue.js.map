@@ -1,0 +1,1 @@
+{"version":3,"file":"vue.js","sources":["../src/index.ts"],"sourcesContent":["import { isArray } from \"@vue/shared\"\r\nconsole.log(isArray([]))\r\n\r\nconsole.log(\"你好\")\r\n"],"names":["isArray"],"mappings":";;;CACA,OAAO,CAAC,GAAG,CAACA,cAAO,CAAC,EAAE,CAAC,EAAC;AACxB;CACA,OAAO,CAAC,GAAG,CAAC,IAAI;;;;;;"}
