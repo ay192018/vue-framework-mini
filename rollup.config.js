@@ -6,7 +6,6 @@ export default [
   {
     input: "packages/vue/src/index.ts",
     output: [
-      // ~ 到处iife模式的包
       {
         sourcemap: true,
         file: "./packages/vue/dist/vue.js",
@@ -14,9 +13,9 @@ export default [
         name: "Vue",
       },
     ],
-    plugin: [
+    plugins: [
       typescript({
-        sourcemap: true,
+        sourceMap: true,
       }),
       resolve(),
       commonjs(),
