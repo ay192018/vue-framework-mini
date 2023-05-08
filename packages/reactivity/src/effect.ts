@@ -59,7 +59,5 @@ export function triggerEffects(dep: Dep) {
 }
 //触发指定依赖
 export function triggerEffect(effect: ReactiveEffect) {
-  console.log(111)
-
   effect.run() //触发更新
 }
